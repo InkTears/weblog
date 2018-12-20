@@ -1,0 +1,93 @@
+body {
+	padding-top: 70px
+}
+
+.m0{
+	margin:0px;
+}
+
+.slide-image {
+	width: 100%;
+}
+
+.carousel-holder {
+	margin-bottom: 30px;
+}
+
+.carousel-control,.item {
+	border-radius: 4px;
+}
+
+.caption {
+	height: 130px;
+	overflow: hidden;
+}
+
+.caption h4 {
+	white-space: nowrap;
+}
+
+.thumbnail img {
+	width: 100%;
+	height: 122px;
+	overflow: hidden;
+}
+
+.ratings {
+	color: #d17581;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.thumbnail {
+	padding: 0;
+}
+
+.thumbnail .caption-full {
+	padding: 9px;
+	color: #333;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+
+.dropdown-menu{
+	padding: 15px;
+	min-width: 250px;
+}
+
+/* Profil */
+.name
+{
+	position:absolute;
+	padding-left:200px;
+	font-size:30px;
+}
+
+/* Commentaire */
+.panel .panel-body { padding:0px; }
+.panel .list-group { margin-bottom: 0; }
+.panel .panel-title { display:inline }
+.label-info { float: right; }
+.panel li.list-group-item {border-radius: 0; border: 0; border-top: 1px solid #ddd;}
+.panel li.list-group-item:hover { background-color: rgba(86,61,124,.1); }
+.panel .mic-info { color: #666666;font-size: 11px; }
+.panel .action { margin-top:5px; float: right;}
+.panel .comment-text { font-size: 12px; }
+.panel .action a:hover { text-decoration: none;}
+.well-transparent{ background-color: rgba(245, 245, 245, 0.1);}
+
+/* admin */
+.panel-title a{
+	color: #428bca;
+}
+
+#addpost, #adduser{
+	display: none;
+}
+
+#editor{
+	width: 60%;
+}
